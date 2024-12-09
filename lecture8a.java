@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class akshat {
+public class lecture8a {
     public static void main(String[] args) {
         Scanner obj=new Scanner(System.in);
         System.out.print("enter day: ");
