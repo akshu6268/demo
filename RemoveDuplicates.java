@@ -1,7 +1,7 @@
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.HashSet;
 
-public class lecture12 {
+public class RemoveDuplicates {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 2, 1, 4, 5, 4};
@@ -10,8 +10,8 @@ public class lecture12 {
         HashSet<Integer> set = new HashSet<>();
 
         // Add elements from the array to the HashSet
-        for (int a=0; a<array.length; a++) {
-            set.add(array[a]);
+        for (int element : array) {
+            set.add(element);
         }
 
         // Convert the HashSet back to an array
